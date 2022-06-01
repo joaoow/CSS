@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: tahoma,arial,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+#principal{
+	width: 1024px;
+	margin: 20px auto;
+}
+
+.header-top{
+	height: 90px;
+	background: #162028;
+	position: relative;
+}
+
+/*ESTILO DA LOGOMARCA*/
+.logotipo{
+	margin: 8px 0 0 135px;
+}
+
+/*ESTILO DA NAVEGAÇÃO*/
+.header-nav{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	
+}
+
+.botao1{
+	color: black;
+	background-color:darkgrey;
+}
+
+.botao2{
+	color: black;
+	background-color:darkgrey;
+	margin-right: 20px;
+}
+
+.btn1{
+	color: black;
+	background-color: lavender;
+}
+
+.btn2{
+	color: black;
+	background-color: lavender;
+}
+
+.btn3{
+	color: black;
+	background-color: lavender;
+}
+
+.btn4{
+	color: black;
+	background-color: lavender;
+}
+
+.header-nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.header-nav li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px 0 0;
+	padding: 13px;
+}
+
+.header-nav a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 5px;
+	
+		
+}
+
+.header-nav a:hover{
+	color: red;
+}
+
+
+.rodape{
+	background: #0b171f;
+	padding: 90px;
+	font-size: 10px;
+	color: white;
+	letter-spacing: 5px;
+	text-align: center;
+	margin-right: 430px;
+	margin-left: 430px;
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Javascript- Exemplo1</title>
+	<script src="meujavascript.js">
+	function trocatexto(){
+			document.getElementById("demo").innerHTML="OLÁ O TEXTO FOI ALTERADO";
+			
+		}
+		function trocatexto(){
+			document.getElementById("demo").innerHTML="JavaScriot pode alterar o conteúdo HTML";
+		}
+		function demo(){
+			document.getElementById('demo').style.fontSize='35px';
+		}
+		function demo(){
+			document.getElementById('demo').style.fontSize='16px';
+		}
+		function Acender(){
+			document.getElementById('myImagem').src='lampada2.gif';
+		}
+		function Apagar(){
+			document.getElementById('myImagem').src='lampada1.gif';
+		}
+		function Ocultar(){
+			document.getElementById('demo').src='pop.jpg'.style.display='none';
+		}
+		function Mostrar(){
+			document.getElementById('demo').src='pop.jpg'.style.display='block';
+		}
+		
+		</script>
+	
+	
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+	<body>
+		<div id="principal">
+			<header class="header-top">
+				<img class="logo" src="21.jpg" alt="logo" width="110" />
+				<nav class="header-nav">
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">GALERIA</a></li>
+						<li><a href="#">NEWS</a></li>
+						<li><a href="#">BLOG</a></li>
+					</ul>
+				</nav>
+				</header>
+		<br>
+		<br>
+		
+<h2>Olá bem vindo a web de interação :)</h2>
+<div id="demo">
+		<p><button class="botao1" type="button" onClick="document.getElementById('demo').style.fontSize='35px'">Aumente a fonte para melhor vizualização!</button></p>
+	<h3>Olá aqui você pode diminuir e aumentar o tamanho da fonte</h3>
+	<br>
+		<button class="botao2" type="button" onClick="document.getElementById('demo').style.fontSize='15px'">Caso achar a fonte muito grande, diminua aqui!</button>
+		<br>
+		<br>
+		<hr>
+		</div>
+		
+	
+		<p id="trocatexto"></p>
+		<button class="btn1" type="button" onClick='document.getElementById("demo").innerHTML="Ei,bom dia você está em uma página de interação!"'>Troque de texto aqui!</button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+		<button class="btn4" type="button" onClick='document.getElementById("demo").innerHTML="Troque de texto aqui!"'>Troque de texto aqui!</button>
+		<br>
+		
+		
+		<button class="btn2" onClick="document.getElementById('myImage').src='lampada2.gif'">Acenda a luz</button>&emsp;&emsp;&emsp;&emsp;
+		<img id="myImage" src="lampada1.gif" style="width:100px">
+		<button class="btn3" onClick="document.getElementById('myImage').src='lampada1.gif'">Apague a luz</button>
+		<br>
+		<br>
+		<hr>
+		<br>
+		<br>
+		
+	
+		<div id="oculta">	
+		<button type="button" onClick="document.getElementById('demo').style.display='none'">OCULTE O TEXTO ACIMA!</button>&emsp;&emsp;&emsp;&emsp;
+	    <button type="button" onClick="document.getElementById('demo').style.display='block'">EXIBA O TEXTO ACIMA!</button>
+		<br>
+		</div>
+			</div>
+		
+		<footer class="rodape"><!-- INICIO DA AREA DE RODAPE-->
+				Copyright 2022 © interação.com.br
+			<br>
+					<p>Senac</p>
+				</footer><!--FIM DA AREA DE RODAPE-->
+
+</body>
+</html>
+	
